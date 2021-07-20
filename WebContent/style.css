@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{font-family:'맑은 고딕';}
+h1, h2, h3, h4, h5, h6{text-align:center;}
+#divPage{background:white; margin:0px auto; padding:5px; }
+#divCenter{width:1000px; margin:0px auto;}
+#divContent{width:1000px; margin:0px auto;}
+#divBottom{padding:0px 0px 10px 0px; text-align:center; margin-top:80px; }
+#divCondition select{text-align:center; padding:5px; font-size:14px; border:1px solid black;}
+#divCondition input{text-align:center; padding:5px; font-size:14px; border:1px solid black;}
+#divCondition select:focus{outline:0;}
+
+#pagination{margin:0px auto; text-align:center; margin-top:5px;}
+#pagination button{width:80px; padding:5px; margin-left:10px; margin-right:10px;
+				   background:#FFEBC2; border:none; height:30px;}
+#pagination button:focus{outline:0;}
+#pagination input{width:80px; padding:5px; margin-left:10px; margin-right:10px;
+				   background:#FFEBC2; border:none; height:30px; font-weight:bold;}
+#pagination input:focus{outline:0;}
+
+#divMenu1{margin:10px auto; margin-top:20px; overflow:hidden; padding:10px; 
+		  background:white; border-bottom:3px solid #FFAF0F; width:980px;}
+#divMenu1 .title{width:300px; font-size:40px; margin-top:20px;
+				 margin-left:20px; margin-bottom:30px;}
+#divMenu1 .title a{text-decoration:none; color:black;}
+#divMenu1 .menuItem{float:left; text-align:center; margin-left:20px;
+					margin-right:10px; margin-bottom:10px;}
+#divMenu1 .menuItem a{text-decoration:none; color:black; font-size:18px;}
+#divMenu1 .menuItem a:hover{text-decoration:underline 2px #DBEAFF; color:black;
+						   	background:#DBEAFF; font-size:18px;}
+						   	
+#divMenu2{margin:0px auto; text-align:center; width:1000px; height:150px;}
+
+
+/* 장소보기 리스트 */
+#placetbl {overflow:hidden; padding-top:40px; padding-bottom:20px; width:1000px;}
+#placetbl .box{float:left; width:230px; text-align:center; margin-left:15px; margin-bottom:20px;
+		  	   padding-top:15px; padding-bottom:15px; background:white;
+		  	   box-shadow:3px 3px 3px 0px #C2DAFF; border:1px solid black;}
+.p_location{float:top; float:right; background:#FFAF0F; font-size:12px; color:black;}
+.p_code, .p_person, .p_price{font-size:12px; margin-top:5px;}
+.p_name{font-size:14px; margin-top:5px;}
+.p_name span{background:#DBEAFF;}
+#placetbl .box .p1{cursor:pointer;}
+
+
+/* 장소등록 테이블 */
+#tbl{border-collapse:collapse;}
+#tbl th{border:1px solid black; padding:10px; text-align:center; background:#F2F2F2; font-size:14px;}
+#tbl td{border:1px solid black; padding:10px; font-size:14px;}
+#tbl input{padding:7px; text-align:center;}
+#tbl select{padding:7px; text-align:center;}
+#image{margin:0px auto;}
+textarea{resize:none;}
+
+/* 예약리스트 */
+#placetbl{border-collapse:collapse; text-align:center; margin-top:20px;}
+#placetbl th{border:1px solid black; padding:10px; text-align:center; background:#FFAF0F; font-size:14px;}
+#placetbl td{border:1px solid black; padding:7px; font-size:13px;}
+#placetbl .row:hover{background:#F2F2F2;}
+#placetbl button{background:white; border:none;
+			     text-align:center;}
+
+#orderinfo{border-collapse:collapse; text-align:center; margin-top:10px;}
+#orderinfo th{border:1px solid black; padding:10px; text-align:center; background:#F2F2F2; font-size:14px;}
+#orderinfo td{border:1px solid black; padding:10px; font-size:13px;}
+
+#oplist{border-collapse:collapse; text-align:center; width:1000px;}
+#oplist th{border:1px solid black; padding:10px; text-align:center; background:#F2F2F2; font-size:14px;}
+#oplist td{border:1px solid black; padding:10px; font-size:13px;}
+
+/* 찜목록 */
+#empty{border-collapse:collapse; text-align:center; width:1000px; font-size:20px;}
+#btn button{width:100px; padding:5px; background:white;	
+			border:1px solid black; margin-bottom:10px; }
+#btn button:focus{outline:0;}
+#carttbl{border-collapse:collapse; text-align:center; width:1000px;}
+#carttbl th{border:1px solid black; padding:10px; text-align:center; background:#FFAF0F; font-size:14px;}
+#carttbl td{border:1px solid black; padding:7px; font-size:13px;}
+#carttbl .row:hover{background:#F2F2F2;}
+#carttbl input{padding:5px; background:white; border:1px solid black; text-align:center;}
+#carttbl button{padding:5px; background:white; border:none; text-align:center;}
+#carttbl button:focus{outline:0;}
+
+#orderInfo{margin-top:30px;}
+
+#tblOrder{border-collapse:collapse; text-align:center; margin-top:30px; width:1000px;}
+#tblOrder th{border:1px solid black; padding:10px; text-align:center; background:#F2F2F2; font-size:14px;}
+#tblOrder td{border:1px solid black; padding:10px; font-size:13px;}
+
+#tblInfo{border-collapse:collapse; text-align:center; width:600px; margin:0px auto;}
+#tblInfo th{border:1px solid black; padding:10px; text-align:center; background:#F2F2F2; font-size:14px;}
+#tblInfo td{border:1px solid black; padding:7px; font-size:13px;}
+#tblInfo input{padding:5px; background:white; border:1px solid black;}
+
+#btnbox input{width:80px; padding:5px; background:white; border:1px solid black; text-align:center; font-weight:bold; }
+#btnbox input:focus{outline:0;}
+
+/* 로그인 */
+#loginbox{text-align:center;}
+#loginbox input{padding:7px; background:white; border:1px solid black;}
+#logBox button{padding:7px; background:white; border:1px solid black;}
+#logBox span{background:#DBEAFF;}
